@@ -3,7 +3,7 @@
 body {
   font: 100 16px Helvetica, Arial, sans-serif;
   padding: 22px;
-  color: #444;
+  color: #4e4b49;
   background-color: #fdfdfd;
 }
 
@@ -32,6 +32,7 @@ h2 {
 }
 
 h1, h2, h3 {
+  font-family: "Helvetica Neue";
   padding-bottom: 10px;
 }
 
