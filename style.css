@@ -7,9 +7,13 @@ body {
   background-color: #fdfdfd;
 }
 
-div.container, main, header {
-  max-width: 760px;
+div.container {
+  max-width: max-content;
   margin: 0 auto;
+}
+
+iframe {
+  margin-bottom: 10px;
 }
 
 .large {
@@ -17,7 +21,7 @@ div.container, main, header {
 }
 
 div {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 img {
@@ -47,6 +51,10 @@ section {
   float: left;
 }
 
+section.content {
+  max-width: 560px;
+}
+
 p {
   padding-bottom: 8px;
 }
@@ -59,3 +67,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul {
+  list-style-type: circle;
+}
